@@ -10,7 +10,7 @@ const User = require('./model/User');
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://brindha:sms123@cluster0.ciltuyk.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://bharath:root123@sms.nlxyo8u.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
