@@ -13,6 +13,7 @@ app.use(express.json());
 mongoose.connect('mongodb+srv://bharath:root123@sms.nlxyo8u.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  connectTimeoutMS:10000
 });
 
 const db = mongoose.connection;
